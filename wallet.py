@@ -21,7 +21,7 @@ print(seed)
 print('-------------------')
 
 #nome aleatorio
-name = str(entropy)
+name = "Wallet"
 
 #gera uma carteira
 wallet = Wallet.create(name=name, witness_type='segwit', keys=seed, network='bitcoin')
